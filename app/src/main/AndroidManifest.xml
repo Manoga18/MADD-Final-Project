@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MADDFinalProject">
-        <activity android:name=".Rents"></activity>
+        <activity android:name=".works"></activity>
+        <activity android:name=".Rents" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
