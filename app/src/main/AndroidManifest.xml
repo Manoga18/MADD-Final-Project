@@ -10,14 +10,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MADDFinalProject">
-        <activity android:name=".Calldesigner"></activity>
+        <activity android:name=".Cart"></activity>
+        <activity android:name=".Calldesigner" />
         <activity android:name=".Portfolio" />
         <activity android:name=".DesignerMainUI" />
         <activity android:name=".Rentstore" />
         <activity android:name=".RentProductView" />
         <activity android:name=".Menu" />
         <activity android:name=".callui" />
-        <activity android:name=".works"
+        <activity
+            android:name=".works"
             tools:ignore="Instantiatable" />
         <activity android:name=".Rents" />
         <activity android:name=".MainActivity">

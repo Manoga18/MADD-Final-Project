@@ -212,12 +212,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
-        android:text="Cedar Hill"
+        android:layout_marginTop="24dp"
         android:fontFamily="sans-serif-medium"
+        android:text="Cedar Hill"
         android:textColor="#111111"
         android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton14"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView22"
-        tools:layout_editor_absoluteY="525dp" />
+        app:layout_constraintTop_toTopOf="@+id/imageButton14" />
 
     <TextView
         android:id="@+id/textView25"

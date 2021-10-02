@@ -3,17 +3,19 @@ package com.example.maddfinalproject
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ImageButton
+import android.widget.ImageView
 
-class callui : AppCompatActivity() {
+class Cart : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_callui)
+        setContentView(R.layout.activity_cart)
 
-        val callcut = findViewById<ImageButton>(R.id.imageButton15)
-        callcut.setOnClickListener {
-            val intent = Intent(this,MainActivity::class.java)
+        val backbtn = findViewById<ImageView>(R.id.imageView33)
+        backbtn.setOnClickListener {
+            val intent = Intent(this,Rentstore::class.java)
             startActivity(intent)
         }
+
     }
 }
+

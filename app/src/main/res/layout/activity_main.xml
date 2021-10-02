@@ -52,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButton6" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/menuBtn"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginStart="16dp"
@@ -83,7 +83,7 @@
         android:textSize="34sp"
         app:layout_constraintEnd_toStartOf="@+id/imageButton2"
         app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintStart_toEndOf="@+id/menuBtn"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -217,6 +217,116 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         app:srcCompat="@drawable/profilerectangle" />
 
+    <ImageButton
+        android:id="@+id/btnProfile2"
+        android:layout_width="210dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="4dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/profilerectangle" />
+
+    <ImageButton
+        android:id="@+id/callBtn"
+        android:layout_width="106dp"
+        android:layout_height="37dp"
+        android:background="#F3F3F3"
+        app:layout_constraintBottom_toBottomOf="@+id/btnProfile"
+        app:layout_constraintEnd_toEndOf="@+id/btnProfile"
+        app:layout_constraintStart_toStartOf="@+id/btnProfile"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.314"
+        app:srcCompat="@drawable/callbtn" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="148dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:text="“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat nullam aliquet magnis sit consequat porta ultricies urna.”"
+        android:textColor="#111111"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toEndOf="@+id/btnProfile"
+        app:layout_constraintTop_toBottomOf="@+id/textView65" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Last Review"
+        android:textColor="#111111"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toEndOf="@+id/btnProfile"
+        app:layout_constraintTop_toBottomOf="@+id/imageView23" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toEndOf="@+id/btnProfile"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:srcCompat="@drawable/starts" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Lee Fisher"
+        android:textColor="#111111"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnProfile2"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toEndOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/btnProfile2" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="@+id/btnProfile2"
+        app:layout_constraintTop_toTopOf="@+id/btnProfile2"
+        app:srcCompat="@drawable/profilepic" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Lee Fisher"
+        android:textColor="#111111"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnProfile"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/btnProfile" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="@+id/btnProfile"
+        app:layout_constraintTop_toTopOf="@+id/btnProfile"
+        app:srcCompat="@drawable/profilepic" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -255,6 +365,19 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Kaduwela Rd, Malabe"
+        android:textColor="#111111"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toEndOf="@+id/btnProfile"
+        app:layout_constraintTop_toBottomOf="@+id/textView63" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -297,10 +420,10 @@
         android:layout_width="106dp"
         android:layout_height="37dp"
         android:background="#F3F3F3"
-        app:layout_constraintBottom_toBottomOf="@+id/btnProfile"
-        app:layout_constraintEnd_toEndOf="@+id/btnProfile"
-        app:layout_constraintStart_toStartOf="@+id/btnProfile"
-        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintBottom_toBottomOf="@+id/btnProfile2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnProfile"
+        app:layout_constraintTop_toBottomOf="@+id/textView66"
         app:layout_constraintVertical_bias="0.314"
         app:srcCompat="@drawable/callbtn" />
 
